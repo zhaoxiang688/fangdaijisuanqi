@@ -1,4 +1,4 @@
-body {
+body,html {
     overflow: hidden;
 }
 .calc-box {
@@ -67,3 +67,4 @@ body {
     font-size: 20px;
 
 }
+
