@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=375, user-scalable=no, viewport-fit=cover">
+    <title>房贷计算器</title>
+    <link rel="stylesheet" href="./fangdaijisuanqi.css">
+</head>
+
+<body>
+    <div class="calc-box">
+        <div class="title">
+            <span>房贷计算器</span>
+        </div>
+        <div class="group shangye">
+            <label>商业贷款：</label>
+            <input type="text">
+            <span>元</span>
+        </div>
+        <div class="group gongjijin">
+            <label>公积金贷款：</label>
+            <input type="text" value="2495.86">
+            <span>元</span>
+        </div>
+        <div class="group gongjijintiqu">
+            <label>公积金提取：</label>
+            <input type="text" value="2063">
+            <span>元</span>
+        </div>
+        <div class="calc-button">
+            <button>计算</button>
+        </div>
+        <div class="result-box">
+            <span class="result-title">计算结果（原始）：</span>
+            <span class="result-number-resource"></span>
+        </div>
+        <div class="result-box">
+            <span class="result-title">计算结果（进位）：</span>
+            <span class="result-number"></span>
+        </div>
+    </div>
+    <script src="./tool.js"></script>
+    <script src="./fandaijisuanqi.js"></script>
+</body>
+
+</html>
