@@ -1,3 +1,6 @@
+body {
+    overflow: hidden;
+}
 .calc-box {
     margin: auto;
     width: 500px;
@@ -62,4 +65,5 @@
 
 .result-number，.result-number-resource {
     font-size: 20px;
+
 }
